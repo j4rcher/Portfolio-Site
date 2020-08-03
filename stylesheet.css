@@ -23,8 +23,7 @@
   right: 0;
   background-color: transparent;
   color: white;
-  padding-right: 5vh;
-  padding-bottom: 5vh;
+  margin: 25px;
 }
 
 .sticky:hover {
