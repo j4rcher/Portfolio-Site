@@ -12,14 +12,24 @@
   font-size: calc(3vw + 10px);
 }
 
-.bkg-parallax {
-  background-image: url("JoshNA.jpeg");
-  background-position: top;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100%;
+@media only screen and (min-width: 600px) {
+  .bkg-parallax {
+    background-image: url("JoshNA.jpeg");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+  }
 }
 
+@media only screen and (max-width: 600px) {
+  .bkg-parallax {
+    background-image: url("JoshNA-mobile.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 100%;
+  }
+}
 
 .fade-test  {
   opacity: 0;
