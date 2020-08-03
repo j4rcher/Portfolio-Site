@@ -5,7 +5,7 @@
 }
 
 .bkg-parallax .title-desc  {
-  float: left;
+  left: 0;
   position: absolute;
   transform: translate(10vw, 20vh);
   color: white;
@@ -13,6 +13,8 @@
 }
 
 .sticky {
+  width: 200px;
+  height: 200px;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -22,7 +24,6 @@
   bottom: 0;
   right: 0;
   background-color: transparent;
-  padding: 10vh;
   color: white;
 }
 
