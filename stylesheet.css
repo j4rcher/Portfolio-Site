@@ -7,7 +7,7 @@
 .bkg-parallax .title-desc  {
   left: 0;
   position: absolute;
-  transform: translate(10vw, 20vh);
+  transform: translate(10vw, 10vh);
   color: white;
   font-size: calc(3vw + 10px);
 }
