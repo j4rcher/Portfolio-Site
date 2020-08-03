@@ -13,8 +13,6 @@
 }
 
 .sticky {
-  width: 200px;
-  height: 200px;
   position: fixed;
   display: flex;
   flex-direction: column;
