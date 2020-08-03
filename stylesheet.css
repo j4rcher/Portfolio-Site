@@ -52,6 +52,7 @@
 @media only screen and (max-width: 600px) {
   .contact-menu {
     color: white;
+    font-size: 40px;
     height: 100%;
     width: 0;
     display: flex;
