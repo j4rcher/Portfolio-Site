@@ -1,3 +1,35 @@
-div {
+* {
   font-family: sans-serif;
+  margin: 0;
+  border: 0;
+}
+
+.bkg-parallax .title-desc  {
+  float: left;
+  position: absolute;
+  transform: translate(10vw, 20vh);
+  color: white;
+  font-size: calc(3vw + 10px);
+}
+
+.bkg-parallax {
+  background-image: url("JoshNA.jpeg");
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+
+.fade-test  {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-test.visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
 }
