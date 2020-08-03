@@ -48,6 +48,35 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .contact-menu {
+    color: white;
+    height: 100%;
+    width: 0;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.95);
+    overflow-x: hidden;
+  }
+}
+
+@keyframes fade-in {
+  0% {opacity: 0; width: 100%;}
+  100%  {opacity: 1; width: 100%;}
+}
+
+@keyframes fade-out {
+  0% {opacity: 1; width: 100%;}
+  99% {opacity: 0; width: 100%;}
+  100%  {opacity: 0; width: 0;}
+}
+
 .fade-test  {
   opacity: 0;
   transform: translateY(20vh);
@@ -60,8 +89,6 @@
   transform: none;
   visibility: visible;
 }
-
-
 
 @keyframes roll-in-right {
   0%  {
