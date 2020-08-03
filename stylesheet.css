@@ -44,7 +44,6 @@
 @media only screen and (max-width: 600px) {
   .bkg-parallax {
     background-image: url("JoshNA-mobile.jpg");
-    background-position: bottom;
     background-size: cover;
     height: 100%;
   }
