@@ -31,7 +31,7 @@
   cursor: pointer;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) { /*---Desktop---*/
   .bkg-parallax {
     background-image: url("JoshNA.jpeg");
     background-position: top;
@@ -59,7 +59,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) { /*---Mobile---*/
   .bkg-parallax {
     background-image: url("JoshNA-mobile.jpg");
     background-size: cover;
@@ -85,7 +85,6 @@
     display: inherit;
   }
 }
-
 
 @keyframes fade-in {
   0% {opacity: 0; width: 100%;}
