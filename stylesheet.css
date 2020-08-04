@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+button  {
+  background-color: transparent;
+}
+
 .bkg-parallax .title-desc  {
   left: 0;
   position: absolute;
@@ -80,9 +84,6 @@
     z-index: 2;
     background-color: rgba(0,0,0,0.95);
     overflow-x: hidden;
-  }
-  .contact-menu div {
-    display: inherit;
   }
 }
 
