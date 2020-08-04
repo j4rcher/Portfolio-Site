@@ -1,13 +1,16 @@
+const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+
 function changeVis() {
   document.querySelector(".fade-test").classList.toggle("visible");
 }
 
 function openContactMenu() {
-  document.querySelector(".contact-menu").style.animation = "fade-in 0.5s forwards";
+  document.querySelector(".contact-menu").style = "display: flex";
 }
 
 function closeContactMenu() {
-  document.querySelector(".contact-menu").style.animation = "fade-out 0.5s forwards";
+  document.querySelector(".contact-menu").style = "display: none";
 }
 
 var isInViewport = function (elem) {

@@ -2,6 +2,7 @@
   font-family: sans-serif;
   margin: 0;
   border: 0;
+  scroll-behavior: smooth;
 }
 
 .bkg-parallax .title-desc  {
@@ -38,6 +39,24 @@
     background-attachment: fixed;
     height: 100%;
   }
+  .scroll-down {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    background-color: transparent;
+    color: white;
+    left: 50%;
+    margin-bottom: 20px;
+  }
+  .contact-menu {
+    position: fixed;
+    color: white;
+    margin: 25px;
+    bottom: 100px;
+    right: 0;
+    width: 10%;
+    background-color: black;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -46,15 +65,12 @@
     background-size: cover;
     height: 100%;
   }
-}
-
-@media only screen and (max-width: 600px) {
   .contact-menu {
     color: white;
     font-size: 40px;
     height: 100%;
-    width: 0;
-    display: flex;
+    width: 100%;
+    display: none;
     position: fixed;
     justify-content: center;
     align-items: center;
@@ -65,7 +81,11 @@
     background-color: rgba(0,0,0,0.95);
     overflow-x: hidden;
   }
+  .contact-menu div {
+    display: inherit;
+  }
 }
+
 
 @keyframes fade-in {
   0% {opacity: 0; width: 100%;}
