@@ -7,13 +7,13 @@ function changeVis() {
 
 function openContactMenu() {
   document.querySelector(".contact-menu").style = "visibility: visible";
-  document.querySelector("#sticky-button img").src = "x.svg";
+  document.querySelector("#sticky-button img").src = "./svg/x.svg";
   document.querySelector("#sticky-button").onclick = closeContactMenu;
 }
 
 function closeContactMenu() {
   document.querySelector(".contact-menu").style = "visibility: hidden";
-  document.querySelector("#sticky-button img").src = "messages.svg";
+  document.querySelector("#sticky-button img").src = "./svg/messages.svg";
   document.querySelector("#sticky-button").onclick = openContactMenu;
 }
 
