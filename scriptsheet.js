@@ -6,15 +6,15 @@ function changeVis() {
 }
 
 function openContactMenu() {
-  document.querySelector(".contact-menu").style = "display: flex";
-  document.querySelector(".sticky img").src = "x.svg";
-  document.querySelector(".sticky").onclick = closeContactMenu;
+  document.querySelector(".contact-menu").style = "visibility: visible";
+  document.querySelector("#sticky-button img").src = "x.svg";
+  document.querySelector("#sticky-button").onclick = closeContactMenu;
 }
 
 function closeContactMenu() {
-  document.querySelector(".contact-menu").style = "display: none";
-  document.querySelector(".sticky img").src = "messages.svg";
-  document.querySelector(".sticky").onclick = openContactMenu;
+  document.querySelector(".contact-menu").style = "visibility: hidden";
+  document.querySelector("#sticky-button img").src = "messages.svg";
+  document.querySelector("#sticky-button").onclick = openContactMenu;
 }
 
 var isInViewport = function (elem) {
