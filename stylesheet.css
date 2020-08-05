@@ -51,6 +51,7 @@ button  {
     display: flex;
     flex-direction: column;
     visibility: visible;
+    cursor: pointer;
   }
 }
 
@@ -87,6 +88,7 @@ button  {
     right: 6vw;
     visibility: visible;
     font-size: 20px;
+    cursor: pointer;
   }
 }
 
