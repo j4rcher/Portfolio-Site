@@ -3,7 +3,6 @@
   margin: 0;
   border: 0;
   scroll-behavior: smooth;
-  color: white;
 }
 
 button  {
@@ -55,6 +54,7 @@ button  {
   }
   #sticky-button span {
     width: 50px;
+    color: white;
   }
 }
 
@@ -82,6 +82,7 @@ button  {
     overflow-x: hidden;
   }
   #sticky-button {
+    color: white;
     position: fixed;
     display: flex;
     justify-content: center;
