@@ -7,6 +7,7 @@ function changeVis() {
 
 function openContactMenu() {
   document.querySelector(".contact-menu").style = "visibility: visible";
+  document.querySelector(".contact-menu").style.animation = "fade-in 1s forwards";
   document.querySelector("#sticky-button img").src = "./svg/x.svg";
   document.querySelector("#sticky-button").onclick = closeContactMenu;
 }
