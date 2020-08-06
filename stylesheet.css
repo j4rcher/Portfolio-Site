@@ -99,11 +99,10 @@ button  {
   }
 }
 
-
 .row  {
   display: flex;
   flex-wrap: wrap;
-  background-color:
+  background-color: black;
 }
 
 .column {
