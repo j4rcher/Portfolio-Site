@@ -94,11 +94,16 @@ button  {
     font-size: 20px;
     cursor: pointer;
   }
+  .scroll-down {
+    display: none;
+  }
 }
+
 
 .row  {
   display: flex;
   flex-wrap: wrap;
+  background-color:
 }
 
 .column {
