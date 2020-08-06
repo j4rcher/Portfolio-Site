@@ -96,6 +96,21 @@ button  {
   }
 }
 
+.row  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: calc(10/3);
+  max-width: calc(10/3);
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
 .fade-test  {
   opacity: 0;
   transform: translateY(20vh);
