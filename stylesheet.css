@@ -106,13 +106,32 @@ button  {
 }
 
 .column {
-  flex: calc(10/3);
-  max-width: calc(10/3);
+  flex: 50%;
+  max-width: 50%;
 }
 
 .column img {
   vertical-align: middle;
   width: 100%;
+}
+
+.flexboxing  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-gallery  {
+  max-width: 50%;
+  padding: 20px;
+  overflow-y: scroll;
+  height: 50%;
+}
+
+.img-gallery::-webkit-scrollbar {
+    width: 0;
+    height: 0;
 }
 
 .fade-test  {
