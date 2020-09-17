@@ -120,14 +120,32 @@ button  {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background-color: #1d1d1d;
 }
 
 .img-gallery  {
   max-width: 50%;
   padding: 20px;
   overflow-y: scroll;
-  height: 50%;
+  height: 100%;
 }
+
+.text-gallery {
+  background-color: #d5d5d5;
+  border-radius: 2px;
+  padding: 20px;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 600px){
+  .flexboxing {
+    flex-direction: column;
+  }
+  .img-gallery  {
+    max-width: 100%;
+  }
+}
+
 
 .img-gallery::-webkit-scrollbar {
     width: 0;
